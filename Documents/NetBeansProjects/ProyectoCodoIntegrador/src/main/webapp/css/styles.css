@@ -1,0 +1,281 @@
+/*Redes texto y efecto emoticones*/
+
+.fa-brands.fa-square-instagram.fa-2x:hover,
+.fa-brands.fa-square-github.fa-2x:hover,
+.fa-brands.fa-linkedin.fa-2x:hover,
+.fa-brands.fa-square-facebook.fa-2x:hover,
+.fa-solid.fa-user.fa-2x.user:hover
+{
+    color: rgb(19, 167, 212);
+}
+
+.fa-brands.fa-square-instagram.fa-2x,
+.fa-brands.fa-square-github.fa-2x,
+.fa-brands.fa-linkedin.fa-2x,
+.fa-brands.fa-square-facebook.fa-2x,
+.fa-solid.fa-user.fa-2x.user
+{
+    color: rgb(255, 255, 255);
+}
+
+.texto_redes{
+  font-size: 0.6em;
+  color: rgb(255, 255, 255);
+}
+
+.menu_tickets{
+  color:chartreuse;
+}
+
+/*Fin redes texto y efecto emoticones*/
+
+.nav-link{
+  font-size: 0.70em
+}
+
+.logo {
+  width: 8rem;
+}
+
+body{
+    height: 100%;   
+    font-family: "Open Sans", sans-serif;
+    background-image: url(c.jpg);
+}
+
+#main{
+  padding-block-start: 10em;
+}
+
+section{
+    padding: 2em;
+    overflow: hidden;
+}
+
+.section-title {
+    padding-bottom: 1em;
+  }
+  
+  .section-title h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    position: relative;
+    color: #173b6c;
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 8em;
+    height: 0.1em;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+
+  h6{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #173b6c;
+  }
+  
+
+  li, p{
+    font-size: 1.5em;
+  }
+
+  .progress-bar{
+    font-size: 1.5em;
+  }
+
+/* About */   
+
+.imagen_perfil{
+  border-radius: 50%;
+}
+
+.about .content h3 {
+  font-weight: 700;
+  font-size: 2em;
+  color: #173b6c;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 2em;
+}
+
+.about .content ul i {
+  font-size: 1em;
+  padding-right: 1em;
+  color: #149ddd;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+.estudios{
+  background-image: url(70409-estudiar.jpg) ;
+}
+
+/* Fin About */ 
+
+/* Banner */ 
+
+#banner {
+  width: 100%;
+  /*background: url(bannerblanco.jpg) top center*/;
+}
+
+
+#banner .banner-container {
+  position: relative;
+  z-index: 2;
+  min-width: 19em;
+}
+
+#banner {
+  background-attachment: fixed;
+}
+
+/* Fin banner */ 
+
+/* Seccion estudios */
+
+
+
+.estudios .estudios-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #050d18;
+}
+
+.estudios .estudios-item {
+  padding: 0 0 2em 2em;
+  margin-top: -0.2em;
+  border-left: 0.2em solid #1f5297;
+  position: relative;
+}
+
+.estudios .estudios-item h4 {
+  line-height: 1em;
+  font-size: em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #255ead;
+  margin-bottom: 1em;
+}
+
+.estudios .estudios-item h5 {
+  font-size: 1em;
+  background: #e4edf9;
+  padding: 0.5em 1em;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.estudios .estudios-item ul {
+  padding-left: 1.5em;
+}
+
+.estudios .estudios-item ul li {
+  padding-bottom: 1.5em;
+}
+
+.estudios .estudios-item:last-child {
+  padding-bottom: 0;
+}
+
+.estudios .estudios-item::before {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border-radius: 3em;
+  left: -0.5em;
+  top: 0;
+  background: #fff;
+  border: 0.13em solid #1f5297;
+}
+
+/* Fin seccion estudios */
+
+/* Seccion experiencialaboral */
+
+.expLaboral .expLaboral-title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #050d18;
+}
+
+.expLaboral .expLaboral-item {
+  padding: 0 0 2em 2em;
+  margin-top: -0.2em;
+  border-left: 0.2em solid #1f5297;
+  position: relative;
+}
+
+.expLaboral .expLaboral-item h4 {
+  line-height: 1em;
+  font-size: 2em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #2f61a7;
+  margin-bottom: 1em;
+}
+
+.expLaboral .expLaboral-item h5 {
+  font-size: 1em;
+  background: #e4edf9;
+  padding: 0.5em 1em;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+
+.expLaboral .expLaboral-item ul {
+  padding-left: 1.5em;
+}
+
+.expLaboral .expLaboral-item ul li {
+  padding-bottom: 1.5em;
+}
+
+.expLaboral .expLaboral-item:last-child {
+  padding-bottom: 0;
+}
+
+.expLaboral .expLaboral-item::before {
+  content: "";
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  border-radius: 3em;
+  left: -0.5em;
+  top: 0;
+  background: #fff;
+  border: 0.13em solid #1f5297;
+}
+
+/* Fin seccion experiencialaboral */
+

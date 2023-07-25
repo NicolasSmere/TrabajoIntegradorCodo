@@ -1,0 +1,39 @@
+.nav-link{
+    font-size: 1.1em
+}
+  
+.logo{
+    width: 8rem;
+}
+
+.menu_tickets{
+    color:chartreuse;
+}
+
+.menu_tickets:hover{
+    color:rgb(130, 27, 199);
+}
+
+main{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+body{
+    height: 100%;   
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.container{
+    padding-top: 3em;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.TotalPagar{
+    background-color: #6eaef3;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: initial;
+}
