@@ -1,3 +1,5 @@
+package Dpackage;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
@@ -11,7 +13,7 @@
 public class Persona {
 
     private int id;
-    private int dni;
+    private String dni;
     private String nombre;
     private String apellido;
     private String correo;
@@ -22,7 +24,7 @@ public class Persona {
     public Persona(int id){
     }
     
-    public Persona(int id, int dni, String nombre, String apellido, String correo) {
+    public Persona(int id, String dni, String nombre, String apellido, String correo) {
         this.id = id;
         this.dni = dni;
         this.nombre = nombre;
@@ -38,11 +40,11 @@ public class Persona {
         this.id = id;
     }
 
-    public int getDni() {
+    public String getDni() {
         return dni;
     }
 
-    public void setDni(int dni) {
+    public void setDni(String dni) {
         this.dni = dni;
     }
 
