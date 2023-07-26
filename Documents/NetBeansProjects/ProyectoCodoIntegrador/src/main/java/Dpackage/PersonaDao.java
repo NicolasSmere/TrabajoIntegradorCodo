@@ -12,8 +12,14 @@ import java.util.Optional;
 import java.util.List;
 
 public class PersonaDao {
+
+    /**
+     *
+     * @return
+     * @throws SQLException
+     */
     public List<Persona> obtenerTodos() throws SQLException {
-        List<Persona> usuarios = new ArrayList<>();
+        List<Persona> personas = new ArrayList<>();
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement stmt = conn.prepareStatement("SELECT * FROM persona");
              ResultSet rs = stmt.executeQuery()) {
@@ -25,14 +31,13 @@ public class PersonaDao {
                 persona.setNombre(rs.getString("nombre"));
                 persona.setApellido(rs.getString("apellido"));
                 persona.setCorreo(rs.getString("correo"));
-                // Otros campos aquí...
-                
-                usuarios.add(persona);
+               
+                personas.add(persona);
             }
         }
-        return usuarios;
+        return personas;
     }
-    
+      
     public void insertar(Persona persona) throws SQLException {
         try (Connection conn = DBConnection.getConnection();
              PreparedStatement stmt = conn.prepareStatement("INSERT INTO persona (nombre) VALUES (?)")) {

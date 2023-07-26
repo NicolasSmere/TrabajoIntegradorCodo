@@ -57,7 +57,10 @@
     <table border="1">
         <tr>
             <th>ID</th>
+            <th>Dni</th>
             <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Correo</th>
             <th>Acciones</th>
         </tr>
         <% try {
@@ -66,7 +69,10 @@
                 for (Persona persona : personas) { %>
                     <tr>
                         <td><%= persona.getId() %></td>
+                        <td><%= persona.getDni() %></td>
                         <td><%= persona.getNombre() %></td>
+                        <td><%= persona.getApellido() %></td>
+                        <td><%= persona.getCorreo() %></td>
                         <td>
                             <a href="editarPersona.jsp?id=<%= persona.getId() %>">Editar</a>
                             <a href="PersonaServlet?action=eliminar&id=<%= persona.getId() %>">Eliminar</a>
